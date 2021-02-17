@@ -18,7 +18,7 @@ import numpy as np
 import torch
 from torch.quasirandom import SobolEngine
 
-from gp import train_gp
+from jetbrains_bbo.gp import train_gp
 from turbo.utils import from_unit_cube, latin_hypercube, to_unit_cube
 
 

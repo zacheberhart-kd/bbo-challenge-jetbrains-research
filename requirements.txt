@@ -1,3 +1,5 @@
 git+https://github.com/uber-research/TuRBO.git@master
 scikit-optimize==0.8.dev0
 pyaml>=16.9
+gpytorch==1.1.1
+torch>=1.6.1

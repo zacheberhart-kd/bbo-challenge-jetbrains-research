@@ -15,9 +15,9 @@ from bayesmark.experiment import experiment_main
 from bayesmark.space import JointSpace
 
 # It depends on scikit-optimize==0.8.dev0, which is not in the default environment.
-import sampler
-from turbo1 import Turbo1
-from util import copula_standardize
+import jetbrains_bbo.sampler as sampler
+from jetbrains_bbo.turbo1 import Turbo1
+from jetbrains_bbo.util import copula_standardize
 
 try:
   import open3d
@@ -369,7 +369,3 @@ class SpacePartitioningOptimizer(AbstractOptimizer):
       self.node = None
       self.turbo = None
       self.split_used = 0
-
-
-if __name__ == '__main__':
-  experiment_main(SpacePartitioningOptimizer)

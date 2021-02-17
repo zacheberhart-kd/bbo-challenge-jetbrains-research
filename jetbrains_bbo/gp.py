@@ -21,7 +21,6 @@ from gpytorch.likelihoods import GaussianLikelihood
 from gpytorch.means import ConstantMean
 from gpytorch.mlls import ExactMarginalLogLikelihood
 from gpytorch.models import ExactGP
-#from botorch.models import SingleTaskGP, FixedNoiseGP
 
 
 # GP Model
